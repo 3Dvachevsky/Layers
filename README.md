@@ -5,7 +5,8 @@ Just check video.
 
 It is recommended to use it only for the environment
 
-https://github.com/user-attachments/assets/ccb6e0ba-8c51-426d-b49c-733094928075
+
+https://github.com/user-attachments/assets/d9b02031-c620-4e5e-a12b-5a123c21393b
 
 
 ## Installation
