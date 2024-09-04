@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://b0n4dvbhs5xpc"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_rbjbd"]
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_q175w"]
+
+[sub_resource type="SphereMesh" id="SphereMesh_6tr7w"]
+
+[node name="ExampleLayer" type="Node"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = SubResource("BoxMesh_rbjbd")
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 0)
+mesh = SubResource("CylinderMesh_q175w")
+
+[node name="MeshInstance3D3" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 0)
+mesh = SubResource("SphereMesh_6tr7w")

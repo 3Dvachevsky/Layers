@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://btwd70yg6okv6"]
+
+[ext_resource type="Script" path="res://addons/layers/layer_node.gd" id="1_crrff"]
+[ext_resource type="PackedScene" uid="uid://b0n4dvbhs5xpc" path="res://layers/example_layer.tscn" id="2_07pln"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="ExampleLayer" type="Node" parent="."]
+script = ExtResource("1_crrff")
+save_file = ExtResource("2_07pln")
